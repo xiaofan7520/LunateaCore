@@ -1,0 +1,18 @@
+{
+  "disc.moonsong": {
+    "sounds": [
+      {
+        "name": "lunatea:moonsong",
+        "stream": true
+      }
+    ]
+  },
+  "disc.undertale": {
+    "sounds": [
+      {
+        "name": "lunatea:undertale",
+        "stream": true
+      }
+    ]
+  }
+}

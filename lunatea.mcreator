@@ -1,0 +1,99 @@
+{
+  "mod_elements": [
+    {
+      "name": "DiscUndertale",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disc_undertale",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lunatea/models/item/disc_undertale.json",
+          "src/main/java/net/klonoa9x6/lunatea/item/DiscUndertaleItem.java"
+        ]
+      },
+      "path": "~/MusicDisc"
+    },
+    {
+      "name": "DiscMoonsong",
+      "type": "musicdisc",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disc_moonsong",
+      "metadata": {
+        "files": [
+          "src/main/java/net/klonoa9x6/lunatea/item/DiscMoonsongItem.java",
+          "src/main/resources/assets/lunatea/models/item/disc_moonsong.json"
+        ]
+      },
+      "path": "~/MusicDisc"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "disc.moonsong",
+      "files": [
+        "disc_moonsong"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "disc.undertale",
+      "files": [
+        "disc_undertale"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
+      "item.lunatea.disc_moonsong": "Music Disc",
+      "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
+      "item.lunatea.disc_undertale": "Music Disc",
+      "subtitles.disc.undertale": "",
+      "subtitles.disc.moonsong": ""
+    },
+    "zh_cn": {
+      "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
+      "item.lunatea.disc_moonsong": "音乐唱片",
+      "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
+      "item.lunatea.disc_undertale": "音乐唱片",
+      "subtitles.disc.undertale": "",
+      "subtitles.disc.moonsong": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "MusicDisc",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "lunatea",
+    "modName": "Lunatea Core",
+    "version": "1.0.0",
+    "author": "KLONOA9X6, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.klonoa9x6.lunatea",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300333711
+}
