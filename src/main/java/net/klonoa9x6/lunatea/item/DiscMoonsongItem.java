@@ -10,6 +10,6 @@ import net.minecraft.resources.ResourceLocation;
 
 public class DiscMoonsongItem extends RecordItem {
 	public DiscMoonsongItem() {
-		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("lunatea:disc.moonsong")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 100);
+		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("lunatea:disc.moonsong")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 2940);
 	}
 }

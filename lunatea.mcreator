@@ -9,8 +9,8 @@
       "registry_name": "disc_undertale",
       "metadata": {
         "files": [
-          "src/main/resources/assets/lunatea/models/item/disc_undertale.json",
-          "src/main/java/net/klonoa9x6/lunatea/item/DiscUndertaleItem.java"
+          "src/main/java/net/klonoa9x6/lunatea/item/DiscUndertaleItem.java",
+          "src/main/resources/assets/lunatea/models/item/disc_undertale.json"
         ]
       },
       "path": "~/MusicDisc"
@@ -48,11 +48,20 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "bgm.a_shine_upon_inkwater_marsh",
+      "files": [
+        "a_shine_upon_inkwater_marsh"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
       "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
+      "subtitles.bgm.a_shine_upon_inkwater_marsh": "",
       "item.lunatea.disc_moonsong": "Music Disc",
       "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
       "item.lunatea.disc_undertale": "Music Disc",
@@ -61,6 +70,7 @@
     },
     "zh_cn": {
       "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
+      "subtitles.bgm.a_shine_upon_inkwater_marsh": "",
       "item.lunatea.disc_moonsong": "音乐唱片",
       "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
       "item.lunatea.disc_undertale": "音乐唱片",
@@ -95,5 +105,5 @@
     "modElementsPackage": "net.klonoa9x6.lunatea",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300333711
+  "mcreatorVersion": 202300334614
 }

@@ -17,4 +17,5 @@ public class LunateaModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, LunateaMod.MODID);
 	public static final RegistryObject<SoundEvent> DISC_MOONSONG = REGISTRY.register("disc.moonsong", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("lunatea", "disc.moonsong")));
 	public static final RegistryObject<SoundEvent> DISC_UNDERTALE = REGISTRY.register("disc.undertale", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("lunatea", "disc.undertale")));
+	public static final RegistryObject<SoundEvent> BGM_A_SHINE_UPON_INKWATER_MARSH = REGISTRY.register("bgm.a_shine_upon_inkwater_marsh", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("lunatea", "bgm.a_shine_upon_inkwater_marsh")));
 }

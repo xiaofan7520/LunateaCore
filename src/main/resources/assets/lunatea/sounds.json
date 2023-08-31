@@ -2,7 +2,7 @@
   "disc.moonsong": {
     "sounds": [
       {
-        "name": "lunatea:moonsong",
+        "name": "lunatea:disc_moonsong",
         "stream": true
       }
     ]
@@ -10,7 +10,15 @@
   "disc.undertale": {
     "sounds": [
       {
-        "name": "lunatea:undertale",
+        "name": "lunatea:disc_undertale",
+        "stream": true
+      }
+    ]
+  },
+  "bgm.a_shine_upon_inkwater_marsh": {
+    "sounds": [
+      {
+        "name": "lunatea:a_shine_upon_inkwater_marsh",
         "stream": true
       }
     ]
