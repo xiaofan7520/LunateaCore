@@ -10,6 +10,6 @@ import net.minecraft.resources.ResourceLocation;
 
 public class DiscUndertaleItem extends RecordItem {
 	public DiscUndertaleItem() {
-		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("lunatea:disc.undertale")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 7620);
+		super(0, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("lunatea:disc.undertale")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 7630);
 	}
 }

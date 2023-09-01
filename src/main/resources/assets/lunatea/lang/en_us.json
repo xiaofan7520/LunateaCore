@@ -1,9 +1,17 @@
 {
-  "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
-  "subtitles.bgm.a_shine_upon_inkwater_marsh": "",
-  "item.lunatea.disc_moonsong": "Music Disc",
-  "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
+  "subtitles.disc.magic_spear_i": "",
   "item.lunatea.disc_undertale": "Music Disc",
+  "item.lunatea.disc_wind_garden_galaxy.desc": "横田真人 - ウィンドガーデン",
   "subtitles.disc.undertale": "",
+  "subtitles.disc.note_block_battle": "",
+  "item.lunatea.disc_note_block_battle": "Music Disc",
+  "item.lunatea.disc_magic_spear_i.desc": "渡辺量 - Magic Spear I",
+  "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
+  "item.lunatea.disc_magic_spear_i": "Music Disc",
+  "item.lunatea.disc_moonsong": "Music Disc",
+  "item.lunatea.disc_wind_garden_galaxy": "Music Disc",
+  "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
+  "item.lunatea.disc_note_block_battle.desc": "AaronGrooves - Note block battle",
+  "subtitles.disc.wind_garden_galaxy": "",
   "subtitles.disc.moonsong": ""
 }

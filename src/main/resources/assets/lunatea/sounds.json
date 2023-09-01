@@ -15,10 +15,26 @@
       }
     ]
   },
-  "bgm.a_shine_upon_inkwater_marsh": {
+  "disc.note_block_battle": {
     "sounds": [
       {
-        "name": "lunatea:a_shine_upon_inkwater_marsh",
+        "name": "lunatea:disc_note_block_battle",
+        "stream": true
+      }
+    ]
+  },
+  "disc.wind_garden_galaxy": {
+    "sounds": [
+      {
+        "name": "lunatea:disc_wind_garden_galaxy",
+        "stream": true
+      }
+    ]
+  },
+  "disc.magic_spear_i": {
+    "sounds": [
+      {
+        "name": "lunatea:disc_magic_spear_i",
         "stream": true
       }
     ]

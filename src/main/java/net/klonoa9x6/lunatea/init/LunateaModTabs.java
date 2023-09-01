@@ -25,6 +25,9 @@ public class LunateaModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(LunateaModItems.DISC_UNDERTALE.get());
 			tabData.accept(LunateaModItems.DISC_MOONSONG.get());
+			tabData.accept(LunateaModItems.DISC_NOTE_BLOCK_BATTLE.get());
+			tabData.accept(LunateaModItems.DISC_WIND_GARDEN_GALAXY.get());
+			tabData.accept(LunateaModItems.DISC_MAGIC_SPEAR_I.get());
 		}
 	}
 }

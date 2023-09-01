@@ -29,6 +29,51 @@
         ]
       },
       "path": "~/MusicDisc"
+    },
+    {
+      "name": "DiscNoteBlockBattle",
+      "type": "musicdisc",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disc_note_block_battle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/klonoa9x6/lunatea/item/DiscNoteBlockBattleItem.java",
+          "src/main/resources/assets/lunatea/models/item/disc_note_block_battle.json"
+        ]
+      },
+      "path": "~/MusicDisc"
+    },
+    {
+      "name": "DiscWindGardenGalaxy",
+      "type": "musicdisc",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disc_wind_garden_galaxy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/klonoa9x6/lunatea/item/DiscWindGardenGalaxyItem.java",
+          "src/main/resources/assets/lunatea/models/item/disc_wind_garden_galaxy.json"
+        ]
+      },
+      "path": "~/MusicDisc"
+    },
+    {
+      "name": "DiscMagicSpearI",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disc_magic_spear_i",
+      "metadata": {
+        "files": [
+          "src/main/java/net/klonoa9x6/lunatea/item/DiscMagicSpearIItem.java",
+          "src/main/resources/assets/lunatea/models/item/disc_magic_spear_i.json"
+        ]
+      },
+      "path": "~/MusicDisc"
     }
   ],
   "variable_elements": [],
@@ -50,31 +95,63 @@
       "subtitle": ""
     },
     {
-      "name": "bgm.a_shine_upon_inkwater_marsh",
+      "name": "disc.note_block_battle",
       "files": [
-        "a_shine_upon_inkwater_marsh"
+        "disc_note_block_battle"
       ],
-      "category": "music",
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "disc.wind_garden_galaxy",
+      "files": [
+        "disc_wind_garden_galaxy"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "disc.magic_spear_i",
+      "files": [
+        "disc_magic_spear_i"
+      ],
+      "category": "record",
       "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
-      "subtitles.bgm.a_shine_upon_inkwater_marsh": "",
-      "item.lunatea.disc_moonsong": "Music Disc",
-      "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
+      "subtitles.disc.magic_spear_i": "",
       "item.lunatea.disc_undertale": "Music Disc",
+      "item.lunatea.disc_wind_garden_galaxy.desc": "横田真人 - ウィンドガーデン",
       "subtitles.disc.undertale": "",
+      "subtitles.disc.note_block_battle": "",
+      "item.lunatea.disc_note_block_battle": "Music Disc",
+      "item.lunatea.disc_magic_spear_i.desc": "渡辺量 - Magic Spear I",
+      "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
+      "item.lunatea.disc_magic_spear_i": "Music Disc",
+      "item.lunatea.disc_moonsong": "Music Disc",
+      "item.lunatea.disc_wind_garden_galaxy": "Music Disc",
+      "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
+      "item.lunatea.disc_note_block_battle.desc": "AaronGrooves - Note block battle",
+      "subtitles.disc.wind_garden_galaxy": "",
       "subtitles.disc.moonsong": ""
     },
     "zh_cn": {
-      "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
-      "subtitles.bgm.a_shine_upon_inkwater_marsh": "",
-      "item.lunatea.disc_moonsong": "音乐唱片",
-      "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
+      "subtitles.disc.magic_spear_i": "",
       "item.lunatea.disc_undertale": "音乐唱片",
+      "item.lunatea.disc_wind_garden_galaxy.desc": "横田真人 - ウィンドガーデン",
       "subtitles.disc.undertale": "",
+      "subtitles.disc.note_block_battle": "",
+      "item.lunatea.disc_note_block_battle": "音乐唱片",
+      "item.lunatea.disc_magic_spear_i.desc": "渡辺量 - Magic Spear I",
+      "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
+      "item.lunatea.disc_magic_spear_i": "Music Disc",
+      "item.lunatea.disc_moonsong": "音乐唱片",
+      "item.lunatea.disc_wind_garden_galaxy": "音乐唱片",
+      "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
+      "item.lunatea.disc_note_block_battle.desc": "AaronGrooves - Note block battle",
+      "subtitles.disc.wind_garden_galaxy": "",
       "subtitles.disc.moonsong": ""
     }
   },
