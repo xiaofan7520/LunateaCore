@@ -20,4 +20,5 @@ public class LunateaModSounds {
 	public static final RegistryObject<SoundEvent> DISC_NOTE_BLOCK_BATTLE = REGISTRY.register("disc.note_block_battle", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("lunatea", "disc.note_block_battle")));
 	public static final RegistryObject<SoundEvent> DISC_WIND_GARDEN_GALAXY = REGISTRY.register("disc.wind_garden_galaxy", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("lunatea", "disc.wind_garden_galaxy")));
 	public static final RegistryObject<SoundEvent> DISC_MAGIC_SPEAR_I = REGISTRY.register("disc.magic_spear_i", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("lunatea", "disc.magic_spear_i")));
+	public static final RegistryObject<SoundEvent> DISC_PRIAMILL_KLONOA_G1 = REGISTRY.register("disc.priamill_klonoa_g1", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("lunatea", "disc.priamill_klonoa_g1")));
 }
