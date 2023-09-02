@@ -38,5 +38,13 @@
         "stream": true
       }
     ]
+  },
+  "disc.priamill_klonoa_g1": {
+    "sounds": [
+      {
+        "name": "lunatea:disc_priamill_klonoa_g1",
+        "stream": true
+      }
+    ]
   }
 }

@@ -78,7 +78,7 @@
     {
       "name": "WindRing",
       "type": "item",
-      "sortid": 7,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wind_ring",
@@ -100,6 +100,21 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "DiscPriamillKlonoaG1",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disc_priamill_klonoa_g_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lunatea/models/item/disc_priamill_klonoa_g_1.json",
+          "src/main/java/net/klonoa9x6/lunatea/item/DiscPriamillKlonoaG1Item.java"
+        ]
+      },
+      "path": "~/MusicDisc"
     }
   ],
   "variable_elements": [],
@@ -143,17 +158,28 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "disc.priamill_klonoa_g1",
+      "files": [
+        "disc_priamill_klonoa_g1"
+      ],
+      "category": "record",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
+      "item.lunatea.disc_priamill_klonoa_g_1.desc": "Priamill(From Klonoa:Empire of Dreams)",
       "subtitles.disc.magic_spear_i": "",
+      "subtitles.disc.priamill_klonoa_g1": "",
       "item.lunatea.disc_undertale": "Music Disc",
       "item.lunatea.disc_wind_garden_galaxy.desc": "横田真人 - ウィンドガーデン",
       "subtitles.disc.undertale": "",
       "subtitles.disc.note_block_battle": "",
       "item.lunatea.disc_note_block_battle": "Music Disc",
       "item.lunatea.disc_magic_spear_i.desc": "渡辺量 - Magic Spear I",
+      "item.lunatea.disc_priamill_klonoa_g_1": "Music Disc",
       "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
       "item.lunatea.wind_ring": "Wind Ring",
       "item.lunatea.disc_magic_spear_i": "Music Disc",
@@ -166,15 +192,18 @@
       "subtitles.disc.moonsong": ""
     },
     "zh_cn": {
+      "item.lunatea.disc_priamill_klonoa_g_1.desc": "Priamill(From Klonoa:Empire of Dreams)",
       "subtitles.disc.magic_spear_i": "",
+      "subtitles.disc.priamill_klonoa_g1": "",
       "item.lunatea.disc_undertale": "音乐唱片",
       "item.lunatea.disc_wind_garden_galaxy.desc": "横田真人 - ウィンドガーデン",
       "subtitles.disc.undertale": "",
       "subtitles.disc.note_block_battle": "",
       "item.lunatea.disc_note_block_battle": "音乐唱片",
       "item.lunatea.disc_magic_spear_i.desc": "渡辺量 - Magic Spear I",
+      "item.lunatea.disc_priamill_klonoa_g_1": "音乐唱片",
       "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
-      "item.lunatea.wind_ring": "Wind Ring",
+      "item.lunatea.wind_ring": "风之指环",
       "item.lunatea.disc_magic_spear_i": "音乐唱片",
       "item.lunatea.disc_moonsong": "音乐唱片",
       "item.lunatea.disc_wind_garden_galaxy": "音乐唱片",
