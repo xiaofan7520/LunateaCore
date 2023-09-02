@@ -74,6 +74,32 @@
         ]
       },
       "path": "~/MusicDisc"
+    },
+    {
+      "name": "WindRing",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_ring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/klonoa9x6/lunatea/item/WindRingItem.java",
+          "src/main/resources/assets/lunatea/models/item/wind_ring.json"
+        ]
+      },
+      "path": "~/Weapon"
+    },
+    {
+      "name": "LunateaGroup",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunatea_group",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -129,12 +155,14 @@
       "item.lunatea.disc_note_block_battle": "Music Disc",
       "item.lunatea.disc_magic_spear_i.desc": "渡辺量 - Magic Spear I",
       "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
+      "item.lunatea.wind_ring": "Wind Ring",
       "item.lunatea.disc_magic_spear_i": "Music Disc",
       "item.lunatea.disc_moonsong": "Music Disc",
       "item.lunatea.disc_wind_garden_galaxy": "Music Disc",
       "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
       "item.lunatea.disc_note_block_battle.desc": "AaronGrooves - Note block battle",
       "subtitles.disc.wind_garden_galaxy": "",
+      "item_group.lunatea.lunatea_group": "Lunatea",
       "subtitles.disc.moonsong": ""
     },
     "zh_cn": {
@@ -146,12 +174,14 @@
       "item.lunatea.disc_note_block_battle": "音乐唱片",
       "item.lunatea.disc_magic_spear_i.desc": "渡辺量 - Magic Spear I",
       "item.lunatea.disc_undertale.desc": "Toby Fox - Undertale",
-      "item.lunatea.disc_magic_spear_i": "Music Disc",
+      "item.lunatea.wind_ring": "Wind Ring",
+      "item.lunatea.disc_magic_spear_i": "音乐唱片",
       "item.lunatea.disc_moonsong": "音乐唱片",
       "item.lunatea.disc_wind_garden_galaxy": "音乐唱片",
       "item.lunatea.disc_moonsong.desc": "天谷大輔 - Moonsong",
       "item.lunatea.disc_note_block_battle.desc": "AaronGrooves - Note block battle",
       "subtitles.disc.wind_garden_galaxy": "",
+      "item_group.lunatea.lunatea_group": "Lunatea",
       "subtitles.disc.moonsong": ""
     }
   },
@@ -160,6 +190,10 @@
     "children": [
       {
         "name": "MusicDisc",
+        "children": []
+      },
+      {
+        "name": "Weapon",
         "children": []
       }
     ]
