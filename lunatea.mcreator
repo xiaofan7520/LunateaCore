@@ -144,6 +144,62 @@
         ]
       },
       "path": "~/Weapon"
+    },
+    {
+      "name": "Ring",
+      "type": "rangeditem",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lunatea/models/item/ring.json",
+          "src/main/java/net/klonoa9x6/lunatea/item/RingItem.java",
+          "src/main/java/net/klonoa9x6/lunatea/entity/RingEntity.java"
+        ]
+      },
+      "path": "~/Projectile"
+    },
+    {
+      "name": "RingDangTouSheWuSheZhongZheGeFangKuai",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_dang_tou_she_wu_she_zhong_zhe_ge_fang_kuai",
+      "metadata": {
+        "files": [
+          "src/main/java/net/klonoa9x6/lunatea/procedures/RingDangTouSheWuSheZhongZheGeFangKuaiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Projectile"
     }
   ],
   "variable_elements": [],
@@ -199,6 +255,7 @@
   ],
   "language_map": {
     "en_us": {
+      "item.lunatea.ring": "Ring",
       "item.lunatea.disc_priamill_klonoa_g_1.desc": "Priamill(From Klonoa:Empire of Dreams)",
       "subtitles.disc.magic_spear_i": "",
       "subtitles.disc.priamill_klonoa_g1": "",
@@ -221,6 +278,7 @@
       "subtitles.disc.moonsong": ""
     },
     "zh_cn": {
+      "item.lunatea.ring": "Ring",
       "item.lunatea.disc_priamill_klonoa_g_1.desc": "Priamill(From Klonoa:Empire of Dreams)",
       "subtitles.disc.magic_spear_i": "",
       "subtitles.disc.priamill_klonoa_g1": "",
@@ -252,6 +310,10 @@
       },
       {
         "name": "Weapon",
+        "children": []
+      },
+      {
+        "name": "Projectile",
         "children": []
       }
     ]

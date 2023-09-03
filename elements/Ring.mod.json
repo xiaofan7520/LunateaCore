@@ -1,0 +1,49 @@
+{
+  "_fv": 47,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "ring",
+    "customModelName": "Normal",
+    "name": "Ring",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LunateaGroup"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.SPECTRAL_ARROW"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "crossbow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "WindRingFunction"
+    },
+    "bulletPower": 0.8,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Ring"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "RingDangTouSheWuSheZhongZheGeFangKuai"
+    },
+    "onBulletHitsPlayer": {
+      "name": "RingDangTouSheWuSheZhongZheGeFangKuai"
+    },
+    "onBulletHitsEntity": {
+      "name": "RingDangTouSheWuSheZhongZheGeFangKuai"
+    }
+  }
+}

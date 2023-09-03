@@ -4,8 +4,8 @@ plugins {
 }
 
 version = '1.0'
-group = 'net.klonoa9x6.lunatea'
-archivesBaseName = 'lunatea'
+group = 'com.yourname.modid'
+archivesBaseName = 'modid'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 

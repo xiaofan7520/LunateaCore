@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.klonoa9x6.lunatea.init.LunateaModTabs;
 import net.klonoa9x6.lunatea.init.LunateaModSounds;
 import net.klonoa9x6.lunatea.init.LunateaModItems;
+import net.klonoa9x6.lunatea.init.LunateaModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -53,6 +54,7 @@ public class LunateaMod {
 		LunateaModSounds.REGISTRY.register(bus);
 
 		LunateaModItems.REGISTRY.register(bus);
+		LunateaModEntities.REGISTRY.register(bus);
 
 		LunateaModTabs.REGISTRY.register(bus);
 

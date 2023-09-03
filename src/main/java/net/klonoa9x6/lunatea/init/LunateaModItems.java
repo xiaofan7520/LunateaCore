@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.klonoa9x6.lunatea.item.WindRingItem;
+import net.klonoa9x6.lunatea.item.RingItem;
 import net.klonoa9x6.lunatea.item.DiscWindGardenGalaxyItem;
 import net.klonoa9x6.lunatea.item.DiscUndertaleItem;
 import net.klonoa9x6.lunatea.item.DiscPriamillKlonoaG1Item;
@@ -28,4 +29,5 @@ public class LunateaModItems {
 	public static final RegistryObject<Item> DISC_WIND_GARDEN_GALAXY = REGISTRY.register("disc_wind_garden_galaxy", () -> new DiscWindGardenGalaxyItem());
 	public static final RegistryObject<Item> DISC_MAGIC_SPEAR_I = REGISTRY.register("disc_magic_spear_i", () -> new DiscMagicSpearIItem());
 	public static final RegistryObject<Item> DISC_PRIAMILL_KLONOA_G_1 = REGISTRY.register("disc_priamill_klonoa_g_1", () -> new DiscPriamillKlonoaG1Item());
+	public static final RegistryObject<Item> RING = REGISTRY.register("ring", () -> new RingItem());
 }

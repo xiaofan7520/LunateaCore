@@ -25,6 +25,7 @@ public class LunateaModTabs {
 				tabData.accept(LunateaModItems.DISC_WIND_GARDEN_GALAXY.get());
 				tabData.accept(LunateaModItems.DISC_MAGIC_SPEAR_I.get());
 				tabData.accept(LunateaModItems.DISC_PRIAMILL_KLONOA_G_1.get());
+				tabData.accept(LunateaModItems.RING.get());
 			})
 
 					.build());
