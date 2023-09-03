@@ -2,5 +2,13 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "lunatea:item/ring"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cooldown": 0
+      },
+      "model": "lunatea:item/wind_ring_0"
+    }
+  ]
 }

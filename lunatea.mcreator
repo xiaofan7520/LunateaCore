@@ -85,7 +85,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/klonoa9x6/lunatea/item/WindRingItem.java",
-          "src/main/resources/assets/lunatea/models/item/wind_ring.json"
+          "src/main/resources/assets/lunatea/models/item/wind_ring.json",
+          "src/main/resources/assets/lunatea/models/item/wind_ring_0.json"
         ]
       },
       "path": "~/Weapon"
@@ -115,6 +116,34 @@
         ]
       },
       "path": "~/MusicDisc"
+    },
+    {
+      "name": "WindRingFunction",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_ring_function",
+      "metadata": {
+        "files": [
+          "src/main/java/net/klonoa9x6/lunatea/procedures/WindRingFunctionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Weapon"
     }
   ],
   "variable_elements": [],
