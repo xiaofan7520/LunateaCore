@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "disc_magic_spear_i",
+    "description": "渡辺量 - Magic Spear I",
+    "creativeTab": {
+      "value": "CUSTOM:LunateaGroup"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:disc.magic_spear_i"
+    },
+    "lengthInTicks": 5060,
+    "analogOutput": 0
+  }
+}

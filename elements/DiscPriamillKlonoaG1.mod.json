@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "disc_priamill_klonoa_g1",
+    "description": "Priamill(From Klonoa:Empire of Dreams)",
+    "creativeTab": {
+      "value": "CUSTOM:LunateaGroup"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:disc.priamill_klonoa_g1"
+    },
+    "lengthInTicks": 1850,
+    "analogOutput": 0
+  }
+}

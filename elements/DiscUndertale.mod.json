@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "disc_undertale",
+    "description": "Toby Fox - Undertale",
+    "creativeTab": {
+      "value": "CUSTOM:LunateaGroup"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:disc.undertale"
+    },
+    "lengthInTicks": 7630,
+    "analogOutput": 0
+  }
+}

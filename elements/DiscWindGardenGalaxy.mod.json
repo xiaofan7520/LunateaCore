@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "disc_wind_garden_galaxy",
+    "description": "横田真人 - ウィンドガーデン",
+    "creativeTab": {
+      "value": "CUSTOM:LunateaGroup"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:disc.wind_garden_galaxy"
+    },
+    "lengthInTicks": 4500,
+    "analogOutput": 0
+  }
+}

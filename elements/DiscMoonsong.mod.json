@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "disc_moonsong",
+    "description": "天谷大輔 - Moonsong",
+    "creativeTab": {
+      "value": "CUSTOM:LunateaGroup"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:disc.moonsong"
+    },
+    "lengthInTicks": 2950,
+    "analogOutput": 0
+  }
+}

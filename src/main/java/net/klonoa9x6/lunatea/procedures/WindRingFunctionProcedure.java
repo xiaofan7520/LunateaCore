@@ -19,6 +19,8 @@ public class WindRingFunctionProcedure {
 					ItemStack _stktoremove = new ItemStack(Items.SPECTRAL_ARROW);
 					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 				}
+				if (entity instanceof Player _player)
+					_player.giveExperienceLevels(-(3));
 			} else {
 				if (entity instanceof Player _player) {
 					ItemStack _stktoremove = new ItemStack(Items.SPECTRAL_ARROW);

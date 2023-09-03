@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "disc_note_block_battle",
+    "description": "AaronGrooves - Note block battle",
+    "creativeTab": {
+      "value": "CUSTOM:LunateaGroup"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:disc.note_block_battle"
+    },
+    "lengthInTicks": 2620,
+    "analogOutput": 0
+  }
+}
